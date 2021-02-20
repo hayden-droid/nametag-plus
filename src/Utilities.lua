@@ -1,13 +1,13 @@
---Services and modules
+-->>Services and modules
 local RunService = game:GetService("RunService")
 -->>Some useful functions that take a table of properties.
 local module = {}
 
 -->>(Function) [Yields] [Returns time elapsed] heartbeatWait(length: Number)
 --Uses Runservice.Heartbeat to wait a more exact amount of time
-module.heartbeatWait = function(length)
+module.heartbeatWait = function()
 	local startTime = os.clock()
-	RunService.Heartbeat:Wait(length)
+	RunService.Heartbeat:Wait()
 	return os.clock() - startTime
 end
 
@@ -31,7 +31,7 @@ module.modifyFromProperties = function(object, properties)
 	end
 end
 
--->>(Function) [Yields] [Returns loaded property's value] waitForProperty(object:Instance, propertyName: String [Specific])
+--->>(Function) [Yields] [Returns loaded property's value] waitForProperty(object:Instance, propertyName: String [Specific])
 --Waits for a property to return a normal value, then sends it back to the requester.
 module.waitForProperty = function(object, propertyName)
 	if object ~= nil then

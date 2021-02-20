@@ -8,7 +8,7 @@ GitHub is an online codebase software designed for collaborating on development.
 - Code: Where the production codebase is. This shows you the file directory, a preview of the Readme, and allows you to view the code.
 - Issues: Here is where you can create a new bug report or specific feature request (with use cases) for Nametag+.
 - Pull Requests (PRs): This is where you can go if you'd like to contribute to Nametag+. Once you've forked (cloned) this repository and edited it in a way you think is useful, you can create a PR to indicate that you want to merge your edits into this main repository. Collborators will review your changes and approve or deny your request.
-- Discussion: If you need help, want to show off how you're using Nametag+ or want to make a broader feature request, you can go here to discuss this with your fellow contributors.
+- Discussion: If you need help, want to show off how you're using Nametag+ or want to talk about ideas for the future of Nametag+, you can go here to discuss this with your fellow contributors.
 
 **2 - License notice**
 
@@ -32,13 +32,14 @@ You may notice that there is already some documentation included with Nametag+. 
   - Add documentation to functions as already shown in the format "-->>(Function) [Tags such as [Yields] or [Returns SOMETHING]] nameOfFunction(parameter: type, parameter: type)" and add another minor comment underneath concerning what the function does.
 - Add a minor comment (--) to the end of any line that may be unclear.
 - Use Roblox Studio's absolute indentation feature to make consistent indents.
+- In tables, end every entry with a semicolon. This makes it easier to maintain large tables.
 
 **5 - Repository etiquette**
 
 In order to keep the repository organized, please adhere to the following rules:
-- (Collaborators only) Don't commit directly to the master branch. Create a new branch and PR with your requested changes for peer approval.
-- (Collaborators only) Include a .rbxl file with examples in every release to make it easy for beginners to understand.
-- Only edit the wiki if you have something to contribute. This section should only include documentation about the system.
+- (Maintainers only) Don't commit directly to the master branch. Create a new branch and PR with your requested changes for peer approval.
+- (Maintainers only) Include a .rbxl file with examples in every release to make it easy for beginners to understand.
 - Use the appropriate category in discussions and stay on-topic with your replies.
-- Put all code related to the nametag system in the system folder, while keeping all of the repository stuff (i.e. Readme.md) outside.
-- Use issues only for specific and reproducible bug reports. Everything else should go into discussions.
+- Put all code related to the nametag system in the src folder, while keeping all of the repository stuff (i.e. Readme.md) in .github.
+- Use issues only for specific bug reports and feature requests. General ideas should go into discussions.
+- Keep your content PG and in line with the [Code of Conduct](https://github.com/AwesomePossum212/nametag-plus/blob/main/.github/CODE_OF_CONDUCT.md).

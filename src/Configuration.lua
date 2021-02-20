@@ -2,12 +2,12 @@ local module = {}
 
 -->>Basic settings used in the whole system.
 module.options = {
-	isHealthBarVisible = true;
+	isHealthBarVisible = false;
 	defaultText = "";
 	maxDistanceVisibleFrom = 50;
 	nameOutlinedWithTeamColor = true;
 	healthBarAnchorPoint = Vector2.new(0, 0);
-	healthBarScale = .8
+	healthBarScale = .8;
 }
 
 -->>Preset styles
